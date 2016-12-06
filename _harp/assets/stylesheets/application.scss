@@ -1,0 +1,67 @@
+$primarycolor: blue;
+$secondarycolor: grey;
+$logofont: helvetica;
+$textfont: georgia;
+
+
+body {
+      padding: 25px;
+}
+
+li {
+  display: inline;
+  font-family: $textfont;
+  font-style: italic;
+}
+
+li a {
+  text-decoration: none;
+  color: $primarycolor;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.pure-u-1 {
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  color: white;
+  transition: ease 0.5s;
+
+}
+
+img:hover {
+  opacity: 0.4;
+
+}
+
+.kinetic, .animation, .morph:hover {
+  background: $primarycolor;
+}
+
+h1 {
+      font-size: 4em;
+      font-weight: bold;
+      color: blue;
+      letter-spacing: -0.2em;
+      display: inline;
+      font-family: $logofont;
+}
+
+h2 {
+  font-family: $textfont;
+  font-style: italic;
+  font-size: 1.3em;
+  color: $primarycolor;
+  text-align: center;
+  margin-bottom: 10px;
+}
