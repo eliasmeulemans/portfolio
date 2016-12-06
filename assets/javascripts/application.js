@@ -1,5 +1,8 @@
 function main() {
-          // hier komt je code
+  var logo = document.getElementById('logo');
+
+
+
 }
 
 window.onload = function() {
