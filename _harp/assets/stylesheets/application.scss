@@ -34,8 +34,7 @@ img {
   display: block;
   margin: auto;
   margin-bottom: 50px;
-  color: white;
-  transition: ease 0.5s;
+  transition: ease 0.4s;
 
 }
 
@@ -44,7 +43,7 @@ img:hover {
 
 }
 
-.kinetic, .animation, .morph:hover {
+.kinetic, .animation, .morph, .null:hover {
   background: $primarycolor;
 }
 
